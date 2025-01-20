@@ -24,3 +24,4 @@
 
 2. 命令执行完成以后，原来的 `CIV_00.21.03.39_A11.xml` 文件被重命名为 `CIV_00.21.03.39_A11_origin.xml`，现有的 `CIV_00.21.03.39_A11.xml` 文件就是去除 AOSP 项目的 XML 文件。
 3. 执行命令 `repo sync` 即可。
+4. 如果想要免翻墙获取 AOSP 项目，可将原来的 `CIV_00.21.03.39_A11.xml` 中的 AOSP 项目源从 `https://android-review.googlesource.com` 改为 `https://mirrors.tuna.tsinghua.edu.cn/git/AOSP` 或者其他镜像源的 URL 再执行同步命令。
